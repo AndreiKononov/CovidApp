@@ -1,1 +1,1 @@
-# CovidApp
+# CovidApp application

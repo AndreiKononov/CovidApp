@@ -17,6 +17,10 @@ Ext.define('CovidApp.view.world.WorldView',{
     },
     columns: [
         {
+            xtype:'rownumberer',
+            align: 'center',
+        },
+        {
             text: 'Country',
             dataIndex: 'Country',
             editable: true,
@@ -58,9 +62,19 @@ Ext.define('CovidApp.view.world.WorldView',{
             dataIndex: 'TotalRecovered',
             editable: true,
             width: 150
+        },
+        {
+            text: 'Date',
+            type: 'date',
+            dataIndex: 'Date',
+            editable: true,
+            width: 170,
         }
     ],
     listeners: {
-        canceledit: 'onEditCancelled'
-    }
+        select: 'selectCountry',
+    },
+    selectable: {
+        mode: 'single'
+    },
 });

@@ -15,6 +15,8 @@ Ext.define('CovidApp.view.world.WorldView',{
             autoConfirm: false
         }
     },
+    // columnLines: true,
+    shadow:false,
     columns: [
         {
             xtype:'rownumberer',
@@ -69,6 +71,8 @@ Ext.define('CovidApp.view.world.WorldView',{
             dataIndex: 'Date',
             editable: true,
             width: 170,
+            sortable: true,
+            renderer: Ext.util.Format.dateRenderer('m/d/Y (h:m)')
         }
     ],
     listeners: {

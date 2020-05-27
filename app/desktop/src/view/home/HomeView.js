@@ -6,38 +6,21 @@ Ext.define('CovidApp.view.home.HomeView',{
 	requires: [],
 	extend: 'Ext.Container',
   scrollable: true,
-  html: `<div style="user-select: text !important;">Welcome to the Ext JS 7.2 Modern Desktop Template Application!
+  html: `<div style="user-select: text !important;">Welcome to the Covid-19 Application!
 <br><br>
-This template has the standard architecture for a desktop application
+This is a simple desktop application to track Covid-19 situation in the world:
 <br>
-- header and footer with custom buttons and text
+- using this <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest">API</a> as a source info
 <br>
-- left-side collapsable menu with custom area on top of menu
-<br>
-- right-side (optional) detail view
-<br>
-- Single Page Application (spa) routing (note # in URL)
-<br>
-- Each View (menu) isolated into its own folder (under the 'view' folder)
-<br>
-- These files: View, View scss file, ViewController, ViewModel (called a ViewPackage)
+- using ExtJS features such as Grid and Window
+
 <br><br>
-Notice that the menu allows you to select from several views, 
+Notice that the menu allows you to select from several views:
 <br>
 - Home (the view you are currently on)
 <br>
-- Personnel
+- World
 <br><br>
-select the personnel menu item to see an example of a page with an Ext JS grid
-<br><br>
-To build a new ViewPackage, type the following in a command window:
-<br>
-- <span style="color:red;">ext-gen viewpackage employee</span> (shortcut: <span style="color:red;">ext vp employee</span>)
-<br><br>
-Simple Theming:
-<br><br>
-- go to 'app/desktop/sass/var.scss', uncomment one of the $base-color variables
-<br>
-- more adventurous? go to <span style="color:red;">'app/shared/sass/var.scss'</span> and uncomment all the lines
+Select the World menu item to see a pandemic situation around the world
 </div>`
 });

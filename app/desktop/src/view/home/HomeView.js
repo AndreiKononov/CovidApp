@@ -20,6 +20,8 @@ Notice that the menu allows you to select from several views:
 - Home (the view you are currently on)
 <br>
 - World
+<br>
+- Belarus
 <br><br>
 Select the World menu item to see a pandemic situation around the world
 </div>`

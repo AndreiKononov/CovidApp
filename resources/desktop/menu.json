@@ -2,6 +2,7 @@
   "leaf": false,
   "children": [
     { "text": "Home", "iconCls": "x-fa fa-home", "xtype": "homeview", "leaf": true },
-    { "text": "World", "iconCls": "x-fa fa-globe", "xtype": "worldview","leaf": true }
+    { "text": "World", "iconCls": "x-fa fa-globe", "xtype": "worldview","leaf": true },
+    { "text": "Belarus", "iconCls": "x-fa fa-compass", "xtype": "belarusview","leaf": true }
   ]
 }

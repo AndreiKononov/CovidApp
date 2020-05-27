@@ -16,7 +16,7 @@ Ext.define('CovidApp.view.world.WorldView',{
         }
     },
     // columnLines: true,
-    shadow:false,
+    shadow: true,
     columns: [
         {
             xtype:'rownumberer',
